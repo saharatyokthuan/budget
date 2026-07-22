@@ -106,13 +106,13 @@
       <div class="form-group"><label for="walletSelect">บัญชี</label><select id="walletSelect"></select></div>
       <div class="form-group"><button class="btn-neon" onclick="addItem()">บันทึก</button></div>
     </div>
-    <div class="note-toggle"><button type="button" id="noteToggleBtn" onclick="toggleNoteInput()">📝 หมายเหตุ</button><input type="text" id="noteInput" placeholder="พิมพ์หมายเหตุที่นี่" style="display:none;"></div>
+    <div class="note-toggle"><button type="button" id="noteToggleBtn" onclick="toggleNoteInput()">หมายเหตุ</button><input type="text" id="noteInput" placeholder="พิมพ์หมายเหตุที่นี่" style="display:none;"></div>
   </div>
   <div class="toolbar">
     <button class="btn-tool" onclick="downloadXLSX()">📥 XLSX</button>
     <button class="btn-tool" onclick="document.getElementById('fileInput').click()">📤 นำเข้า XLSX</button>
     <input type="file" id="fileInput" accept=".xlsx,.xls" style="display:none" onchange="importXLSX(event)">
-    <button class="btn-tool" onclick="clearAll()">🗑️ ล้าง</button>
+    <button class="btn-tool" onclick="clearAll()">ล้าง</button>
     <button type="button" class="btn-tool" onclick="showPage('search')">🔍 ค้นหา</button>
   </div>
   <div class="filter"><button class="filter-btn active" onclick="setFilter('all',this)">ทั้งหมด</button><button class="filter-btn" onclick="setFilter('income',this)">รายรับ</button><button class="filter-btn" onclick="setFilter('expense',this)">รายจ่าย</button></div>
