@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'bgetCtrl_LocalData';
+const STORAGE_KEY = 'budgetCtrl_LocalData';
 
 window.items = [];
 window.wallets = [];
