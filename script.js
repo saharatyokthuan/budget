@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const STORAGE_KEY = 'budgetCtrl_LocalData';
+=======
+const STORAGE_KEY = 'bgetCtrl_LocalData';
+>>>>>>> 49757bbc103e7b7db720b49da58086a8d6820c54
 
 window.items = [];
 window.wallets = [];
